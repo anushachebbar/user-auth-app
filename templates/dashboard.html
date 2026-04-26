@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <style>
+    body { font-family: Arial; display:flex; justify-content:center; 
+           align-items:center; height:100vh; background:#f0f2f5; }
+    .box { background:white; padding:40px; border-radius:10px; 
+           box-shadow:0 2px 10px rgba(0,0,0,0.1); text-align:center; }
+    a { color:white; background:#dc3545; padding:10px 20px; 
+        border-radius:5px; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>✅ Welcome, {{ user }}!</h2>
+    <p>You are successfully logged in.</p>
+    <br>
+    <a href="/logout">Logout</a>
+  </div>
+</body>
+</html>
